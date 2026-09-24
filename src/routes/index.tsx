@@ -69,7 +69,7 @@ function Nav() {
           <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
             <HardHat className="h-5 w-5 text-primary-foreground" />
           </span>
-          <span className="font-display text-xl font-800 font-extrabold tracking-tight">
+          <span className="font-display text-xl font-extrabold tracking-tight">
             INFIELD
           </span>
         </a>
