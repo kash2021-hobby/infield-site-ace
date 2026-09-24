@@ -77,11 +77,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "INFIELD — Stop Proxy Attendance & Track Your Construction Workforce Live" },
+      {
+        name: "description",
+        content:
+          "Know who's on site, who left, and pay exact salaries automatically. INFIELD is the workforce management app for construction companies. Get your free demo.",
+      },
+      { name: "author", content: "INFIELD" },
+      { property: "og:title", content: "INFIELD — Stop Proxy Attendance & Track Your Construction Workforce Live" },
+      {
+        property: "og:description",
+        content:
+          "Know who's on site, who left, and pay exact salaries automatically. INFIELD is the workforce management app for construction companies. Get your free demo.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
